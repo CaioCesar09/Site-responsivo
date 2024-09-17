@@ -1,0 +1,177 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family:"Arial Black", Gadget, sans-serif;
+	background:#f2f3f8;
+}
+img{
+  border:0;	
+}
+#header {
+	width: 100%;
+	padding-top:10px;
+	padding-bottom:10px;
+	position:relative;
+	background:#f2f3f8;
+	z-index:9999;
+}
+.logo{
+ width:100%;
+ text-align:center !important;	
+}
+nav{
+ text-align:center;
+}
+nav a{
+  text-decoration:none;
+  color:#ec5353;
+  margin-left:10px;	
+}
+nav a:hover{
+  text-decoration:none;
+  color:#f9b129;	
+}
+#banner{
+  	position: relative;	
+}
+
+h1{
+	color:#ec5353;
+}
+section {
+	width: 100%;
+}
+.space{
+    width:2px;
+	height:100px;
+	background:#FFF;
+	float:left;
+	margin-top:3%;
+}
+#footer {
+	width: 100%;
+	float: left;
+	background: #23201e;
+	margin-top:0.5%;
+}
+input[type=text] {
+    width:40%;
+	border:0;
+	border-radius:20px;
+	padding:15px;
+    background-color:#f2f3f8;
+}
+
+input[type=submit] {
+    border:0;
+    border-radius:20px;
+	padding:15px;
+    background-color:#ec5353;
+	color:#FFF;
+	font-weight:bold;
+	-webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    transition-duration: 1s;
+}
+input:hover[type=submit] {
+	background-color:#f9b129;
+	color:#23201e;
+}
+@media screen and (min-width: 320px) {
+.logo img {
+	width: 45%;
+	margin-left:2%;
+}
+.box {
+	width: 97.2%;
+	float: left;
+	border:2px solid #e0e1e9;
+	margin: 1% 0 0 1%;
+	text-align:center;
+	
+	-webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    transition-duration: 1s;
+}
+.box:hover {
+	border:2px solid #f9b129;
+}
+.box img{
+   width:40% !important;	
+}
+.description{
+    padding:0 5% 0 5%;
+}
+#footer {
+	margin-top:1.5%;
+}
+.box_footer {
+	width: 42%;
+	float: left;
+	margin: 1% 0 0 1%;
+	padding:2%;
+	color:#FFF;
+}
+.logo_footer img {
+	width: 35%;
+	margin-left:2%;
+}
+.box_footer p{
+   margin-left:2%;	
+}
+}
+@media screen and (min-width: 480px) {
+
+}
+@media screen and (min-width: 768px) {
+.logo {
+   text-align:left !important;
+}
+.logo img {
+	width: 25%;
+}
+#header{
+   background:#f2f3f8;
+}
+nav{
+  float:right;
+  margin-top:-5%;
+  margin-right:3%;
+}
+.box {
+	width: 48.1%;
+	margin: 1% 0 0 1%;
+}
+.box img{
+   width:50% !important;	
+}
+.description{
+    padding:0 3% 0 3%;
+}
+#footer {
+	margin-top:1%;
+}
+.box_footer {
+	width: 42%;
+}
+@media screen and (min-width: 1024px) {
+.logo img {
+	width: 15%;
+}
+nav{
+  margin-top:-3%;	
+}
+.box {
+	width: 24.1%;
+	margin: 0.5% 0 0 0.5%;
+	
+}
+.description{
+    padding:0 3% 0 3%;
+}
+#footer {
+	margin-top:0.5%;
+}
+}
+@media screen and (min-width: 1260px) {
+}
